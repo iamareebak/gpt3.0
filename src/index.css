@@ -1,13 +1,36 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+
+@font-face {
+  font-family: 'Gilfroy';
+  src: url('font/Gilroy-Bold.woff2') format('woff2'),
+       url('font/Gilroy-Bold.woff') format('woff'),
+       url('font/Gilroy-Bold.ttf') format('truetype'),
+       url('font/Gilroy-Bold.eot') format('embeddedtype'),
+
+       url('font/Gilroy-Medium.woff2') format('woff2'),
+       url('font/Gilroy-Medium.woff') format('woff'),
+       url('font/Gilroy-Medium.ttf') format('truetype'),
+       url('font/Gilroy-Medium.eot') format('eot');
+
+  font-weight: normal;
+  font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --font-family: 'Manrope', sans-serif;
+  --font-familia: 'Gilroy', sans-serif;
+
+  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+  
+  --color-bg: #040C18;
+  --color-footer : #031B34; 
+  --color-blog: #042c54;
+  --color-text: #81AFDD;
+  --color-subtext: #FF8A71;
+  --color-inputbox: #3D6184;
+  --color-inputboxback: #052D56;
+  --color-btn: #FF4820;
+  --color-wgpt3: #042C54;
 }
